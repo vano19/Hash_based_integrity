@@ -1,9 +1,11 @@
 <RCC>
-    <qresource prefix="/Images">
-        <file>Title_icon.png</file>
-        <file>input.png</file>
-        <file>output.png</file>
-        <file>compressed-file.png</file>
-        <file>key.png</file>
+    <qresource prefix="/Images"/>
+    <qresource prefix="/">
+        <file>resources/compressed-file.png</file>
+        <file>resources/image-file.png</file>
+        <file>resources/input.png</file>
+        <file>resources/key.png</file>
+        <file>resources/output.png</file>
+        <file>resources/Title_icon.png</file>
     </qresource>
 </RCC>
