@@ -1,6 +1,6 @@
 #include "ALGKey.h"
 #include "Trace.h"
-#include "definitions.h"
+#include "Definitions.h"
 
 bool ALGKey::inject(const QString& key)
 {

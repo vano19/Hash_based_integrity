@@ -1,9 +1,9 @@
-#include "mainwindow.h"
+#include "Mainwindow.h"
 #include "ui_mainwindow.h"
 #include "Trace.h"
 #include "ALGCompression.h"
 #include "ALGKey.h"
-#include "definitions.h"
+#include "Definitions.h"
 
 #include <opencv2/core.hpp>
 #include <opencv2/imgcodecs.hpp>

@@ -18,7 +18,6 @@ public:
     ~MainWindow();
 
 private slots:
-
     void onALGCompressionClicked();
     void onALGKeyClicked();
     void onStartClicked();

@@ -5,8 +5,8 @@
 
 struct IAlgorithm
 {
-    virtual bool inject(const QString& key);
-    virtual bool detach();
+    virtual bool inject(const QString& key) = 0;
+    virtual bool detach() = 0;
 };
 
 #endif // IALGORITHM_H
