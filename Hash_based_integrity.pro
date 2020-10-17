@@ -25,28 +25,27 @@ LIBS += $$PWD/opencv/sources_builded/install/x64/mingw/lib/libopencv_features2d4
 LIBS += $$PWD/opencv/sources_builded/install/x64/mingw/lib/libopencv_calib3d430.dll.a
 
 SOURCES += \
-    ALGCompression.cpp \
-    ALGKey.cpp \
-    Definitions.cpp \
-    Mainwindow.cpp \
-    main.cpp
+    src/ALGCompression.cpp \
+    src/ALGKey.cpp \
+    src/Definitions.cpp \
+    src/Mainwindow.cpp \
+    src/main.cpp
 
 HEADERS += \
-    ALGCompression.h \
-    ALGKey.h \
-    Definitions.h \
-    IAlgorithm.h \
-    Mainwindow.h \
-    Trace.h
+    src/ALGCompression.h \
+    src/ALGKey.h \
+    src/Definitions.h \
+    src/IAlgorithm.h \
+    src/Mainwindow.h \
+    src/Trace.h
 
 FORMS += \
-    mainwindow.ui
+    ui/mainwindow.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
-RESOURCES += \
-    Images.qrc
+RESOURCES += resources/Images.qrc
 

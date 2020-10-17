@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/Images"/>
+    <qresource prefix="/">
+        <file>compressed-file.png</file>
+        <file>image-file.png</file>
+        <file>input.png</file>
+        <file>key.png</file>
+        <file>output.png</file>
+        <file>Title_icon.png</file>
+    </qresource>
+</RCC>
